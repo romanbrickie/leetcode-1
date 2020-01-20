@@ -119,7 +119,6 @@ function climbStairs(n) {
 
 > 爬楼梯我们并没有使用一维数组，而是借助两个变量来实现的，空间复杂度是 O(1).
 > 之所以能这么做，是因为爬楼梯问题的状态转移方程只和前两个有关，因此只需要存储这两个即可。 动态规划问题有时候有很多这种讨巧的方式，但并不是所有的
-> 动态规划都可以这么讨巧，比如背包问题。
 
 ### 动态规划的两个要素
 
@@ -155,10 +154,15 @@ f(n) = f(n-1) + f(n-2) 就是【状态转移公式】
 
 ### 相关问题
 
-[硬币找零问题](../problems/322.coin-change.md)
-[硬币找零问题2](../problems/518.coin-change-2.md)
-[分词问题](../problems/139.word-break.md)
-[416.partition-equal-subset-sum](../problems/416.partition-equal-subset-sum.md)
+- [0091.decode-ways](../problems/91.decode-ways.md)
+- [0139.word-break](../problems/139.word-break.md)
+- [0198.house-robber](../problems/0198.house-robber.md)
+- [0309.best-time-to-buy-and-sell-stock-with-cooldown](../problems/309.best-time-to-buy-and-sell-stock-with-cooldown.md)
+- [0322.coin-change](../problems/322.coin-change.md)
+- [0416.partition-equal-subset-sum](../problems/416.partition-equal-subset-sum.md)
+- [0518.coin-change-2](../problems/518.coin-change-2.md)
+
+> 太多了，没有逐一列举
 
 ## 总结
 
